@@ -1,38 +1,96 @@
-.App {
+html{
+  overflow-x: hidden;
+} /*Slik at man ikke kan scrolle på x-aksen*/
+
+body{
   text-align: center;
+  background-color: #F5F7FB;
+  color: #293264;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/*utilityClass*/
+.center{
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+/*utility class */
+.option{
+  background-color: "#F5F7FB";
+  color: black;
+  margin: 10px;
+  padding: 8px 16px;
+  border-radius: 10px;
+}
+
+.option:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+  
+.option-corr{
+  background-color: #94D7A2;
+}
+
+.option-wrng{
+  background-color: #F8BCBC;
+}
+
+.option-selected{
+  background-color: #D6DBF5;
+}
+
+/*utility class */
+.btn{
   color: white;
+  background-color: #4D5B9E;
+  border: 0;
+  border-radius: 10px;
+  padding: 13px 30px;
+  margin: 10px;
 }
 
-.App-link {
-  color: #61dafb;
+/*utility class*/
+.select-container {
+	margin-bottom: 15px;
+	width: 400px;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+	display: flex;
+  background-color: #D6DBF5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*utility class*/
+.cursor-pointer{
+  cursor: pointer;
 }
+
+.blob--top {
+  position: absolute;
+  top: -300px;
+  right: -300px;
+  width: 600px;
+  opacity: 0.5;
+}
+
+.blob--bottom {
+  position: absolute;
+  bottom: -300px;
+  left: -300px;
+  width: 600px;
+  opacity: 0.5;
+}
+
+.question-container{
+  color: #293264;
+  font-weight: bold;
+}
+
+.score-text{
+  font-weight: bold;
+}
+
+
+
