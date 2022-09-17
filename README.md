@@ -7,7 +7,7 @@ Scrimba provided a figma file for the design of the app, and also described some
 # Features
 
  * Loads questions and answers from the OTDB API.
- * Optionpage which allows you to set category, difficulty, and type of questions. 
+ * Options page which allows you to set category, difficulty, and type of questions. 
  
  # Usage
  
@@ -35,7 +35,7 @@ When satisifed with selected answer, you press the "Check answer" button to see 
 <img src="https://user-images.githubusercontent.com/28097722/190862587-e53cb2e0-eb14-4ab3-9e1b-d0c1125469c6.png" width="800">
 
 
-Pressing the "Play again" send you back to the game options page:
+Pressing the "Play again" sends you back to the game options page:
 
 <img src="https://user-images.githubusercontent.com/28097722/190862873-fe790457-73c9-4b9c-89b2-a302d6f2e7e4.png" width="800">
 
