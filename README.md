@@ -14,6 +14,9 @@ Scrimba provided a figma file for the design of the app, and also described some
  [Live demo of app 👈](https://quizreact-84847.web.app/ "QuizReact")
 
 
+**[The screenshots below is taken from google chrome browser]** 
+
+
 Press the start button to start the app:
 
 <img src="https://user-images.githubusercontent.com/28097722/190859914-5557c801-d8ea-438d-870d-f281fb9b2ce4.png" width="800">
